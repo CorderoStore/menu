@@ -36,7 +36,8 @@ a{
 }
 
 .logo{
-	float: left;
+	/*float: left;*/
+	margin-left: 42%;
 	line-height: 75px;
 }
 
@@ -162,5 +163,11 @@ a{
 
 	.card{
 		grid-template-columns: repeat(1,1fr); /*Columna 4x1*/
+	}
+	
+	.logo{
+	/*float: left;*/
+	margin-left: 30%;
+	line-height: 75px;
 	}
 }
